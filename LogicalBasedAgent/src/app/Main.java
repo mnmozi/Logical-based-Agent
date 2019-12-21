@@ -1,4 +1,4 @@
-package uva;
+package app;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -34,7 +34,7 @@ public class Main {
         }
         stringToSave += "],s0" + ").";
         try {
-            FileWriter fileWriter = new FileWriter("C:/Users/mnmos/Desktop/9th Semester/AI/project 2/" + fileName);
+            FileWriter fileWriter = new FileWriter(fileName);
             fileWriter.write(stringToSave);
             fileWriter.close();
 
